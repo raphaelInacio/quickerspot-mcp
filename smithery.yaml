@@ -2,11 +2,11 @@
 startCommand:
   type: stdio
   config:
-    command: python
+    command: uvx
     args:
-      - mcp-server/src/server.py
+      - quickerspot-mcp
     env:
       QUICKERSPOT_API_KEY:
         type: string
-        description: Your QuickerSpot User API Key (generated at https://quickerspot.com/settings)
+        description: Sua API Key gerada no painel do QuickerSpot (https://quickerspot.com/settings)
         required: true

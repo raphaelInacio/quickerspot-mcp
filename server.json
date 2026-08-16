@@ -3,7 +3,7 @@
   "name": "io.github.raphaelInacio/quickerspot-mcp",
   "title": "QuickerSpot MCP Server",
   "description": "Servidor MCP do QuickerSpot para vinhetas, rádio indoor e sonorização comercial com IA.",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "websiteUrl": "https://quickerspot.com",
   "repository": {
     "url": "https://github.com/raphaelInacio/quickerspot-mcp",
@@ -13,7 +13,7 @@
     {
       "registryType": "pypi",
       "identifier": "quickerspot-mcp",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "transport": {
         "type": "stdio"
       },

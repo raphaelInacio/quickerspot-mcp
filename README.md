@@ -1,3 +1,6 @@
+<!-- mcp-name: io.github.raphaelInacio/quickerspot-mcp -->
+mcp-name: io.github.raphaelInacio/quickerspot-mcp
+
 # Servidor MCP QuickerSpot
 
 Servidor oficial **Model Context Protocol (MCP)** para a plataforma [QuickerSpot](https://quickerspot.com) — Automação de vinhetas, rádio indoor e sonorização comercial com IA.

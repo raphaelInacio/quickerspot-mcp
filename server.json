@@ -1,6 +1,6 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.raphaelinacio/quickerspot-mcp",
+  "name": "io.github.raphaelInacio/quickerspot-mcp",
   "title": "QuickerSpot MCP Server",
   "description": "Servidor MCP do QuickerSpot para vinhetas, rádio indoor e sonorização comercial com IA.",
   "version": "0.1.3",

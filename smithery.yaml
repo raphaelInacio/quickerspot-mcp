@@ -1,0 +1,12 @@
+# smithery.yaml
+startCommand:
+  type: stdio
+  config:
+    command: python
+    args:
+      - mcp-server/src/server.py
+    env:
+      QUICKERSPOT_API_KEY:
+        type: string
+        description: Your QuickerSpot User API Key (generated at https://quickerspot.com/settings)
+        required: true

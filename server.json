@@ -1,0 +1,36 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.raphaelinacio/quickerspot-mcp",
+  "title": "QuickerSpot MCP Server",
+  "description": "Servidor MCP do QuickerSpot para vinhetas, rádio indoor e sonorização comercial com IA.",
+  "version": "0.1.3",
+  "websiteUrl": "https://quickerspot.com",
+  "repository": {
+    "url": "https://github.com/raphaelInacio/quickerspot-mcp",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "quickerspot-mcp",
+      "version": "0.1.3",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "QUICKERSPOT_API_KEY",
+          "description": "API Key M2M gerada no painel do QuickerSpot (/settings)",
+          "isRequired": true,
+          "isSecret": true
+        },
+        {
+          "name": "QUICKERSPOT_API_URL",
+          "description": "URL do backend do QuickerSpot em produção",
+          "isRequired": false,
+          "default": "https://voz-comercial-backend-bvbcktwqoq-uc.a.run.app"
+        }
+      ]
+    }
+  ]
+}
